@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
+    <Compile Include="PlatformPrinter.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -89,6 +90,10 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Common\Globomantics.MobileApp.Common\Globomantics.MobileApp.Common.csproj">
+      <Project>{34D879F9-8441-4E3D-B59D-20AAF210AE5F}</Project>
+      <Name>Globomantics.MobileApp.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Globomatics.MobileApp\Globomatics.MobileApp.csproj">
       <Project>{FAB4F21C-66CA-4DD2-B4F9-9EDC49039044}</Project>
       <Name>Globomatics.MobileApp</Name>

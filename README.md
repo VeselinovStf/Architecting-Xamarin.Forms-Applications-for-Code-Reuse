@@ -30,9 +30,14 @@ Pluralsight 'Architecting Xamarin.Forms Applications for Code Reuse' Course Repo
 	- Create View Models to consume this layers
 
 3. Common Code
+3.1. DI
 	- Create Dependency Injection Project
 	- Add TinyIoC
 	- Extract and Refactor Classes
 	- Wireup DI
+3.2. Criss-platform
+	- Create Interface - IPlatformPrinter
+	- Implement Platform Service
+	- Utilize Dependency Service
 
 #### Duration: 1h 2m

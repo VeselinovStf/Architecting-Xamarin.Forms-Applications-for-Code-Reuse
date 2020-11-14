@@ -95,6 +95,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PlatformPrinter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -144,10 +145,14 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9"/>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Common\Globomantics.MobileApp.Common\Globomantics.MobileApp.Common.csproj">
+      <Project>{34D879F9-8441-4E3D-B59D-20AAF210AE5F}</Project>
+      <Name>Globomantics.MobileApp.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Globomatics.MobileApp\Globomatics.MobileApp.csproj">
       <Project>{FAB4F21C-66CA-4DD2-B4F9-9EDC49039044}</Project>
       <Name>Globomatics.MobileApp</Name>

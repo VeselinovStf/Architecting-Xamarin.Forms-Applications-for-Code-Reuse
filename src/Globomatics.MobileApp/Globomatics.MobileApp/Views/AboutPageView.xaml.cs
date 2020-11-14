@@ -1,4 +1,5 @@
 ﻿
+using Globomantics.MobileApp.Common.Abstraction;
 using Globomatics.MobileApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -23,7 +24,9 @@ namespace Globomatics.MobileApp.Views
         {
              ViewModels.GetCustomer();
 
-            Title = ViewModels.Title;
+            //Title = ViewModels.Title;
+
+            Title = DependencyService.Get<IPlatformPrinter>().GetPlatformString();
         }
     }
 }
