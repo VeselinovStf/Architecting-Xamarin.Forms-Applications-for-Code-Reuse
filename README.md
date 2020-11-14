@@ -1,6 +1,8 @@
 # Architecting-Xamarin.Forms-Applications-for-Code-Reuse
 Pluralsight 'Architecting Xamarin.Forms Applications for Code Reuse' Course Repository
 
+![final project architecture]()
+
 ## Course Info
 
 -A well-architected application is flexible to changing business requirements. This course will teach you how to architect Xamarin.Forms applications in a way that promotes reusable patterns.
@@ -39,5 +41,13 @@ Pluralsight 'Architecting Xamarin.Forms Applications for Code Reuse' Course Repo
 	- Create Interface - IPlatformPrinter
 	- Implement Platform Service
 	- Utilize Dependency Service
+3.3. SharingUI
+	- Controls - Platfom/Shared
+	- Resource Dictionaries
+	- Themes
 
 #### Duration: 1h 2m
+
+### Status
+
+- Completed
