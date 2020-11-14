@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Globomatics.MobileApp.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -13,6 +14,11 @@ namespace Globomatics.MobileApp
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private async void GoToAbout_OnButtonCLicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AboutPageView());
         }
     }
 }

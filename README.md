@@ -15,8 +15,18 @@ Pluralsight 'Architecting Xamarin.Forms Applications for Code Reuse' Course Repo
 
 ### Content
 
- - Course Overview
- - Solution Structures
- - Common Code
+1. Course Overview
+2. Solution Structures
+3. Common Code
+
+### Project Building Info
+
+2. Solution Structures
+	- Creating src/ folder to solution - All code specific to project is going to be stored there
+	- Creating sln Folders for all platform specific app - In order to add new futures saparated at sln-level
+	- Create src/Description project - Storing all modeling and interfacing
+	- Create src/Data Access project - Customer DAL
+	- Create src/Service project - Customer SL
+	- Create View Models to consume this layers
 
 #### Duration: 1h 2m

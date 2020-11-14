@@ -14,4 +14,20 @@
     <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Globomantics.MobileApp.Common\Globomantics.MobileApp.Common.csproj" />
+    <ProjectReference Include="..\..\DataAccess\Globomantics.MobileApp.DAL\Globomantics.MobileApp.DAL.csproj" />
+    <ProjectReference Include="..\..\Services\Globomantics.MobileApp.Services\Globomantics.MobileApp.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\AboutPageView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>
