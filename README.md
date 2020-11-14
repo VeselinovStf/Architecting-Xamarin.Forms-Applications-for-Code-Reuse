@@ -5,9 +5,9 @@ Pluralsight 'Architecting Xamarin.Forms Applications for Code Reuse' Course Repo
 
 ## Course Info
 
--A well-architected application is flexible to changing business requirements. This course will teach you how to architect Xamarin.Forms applications in a way that promotes reusable patterns.
+- A well-architected application is flexible to changing business requirements. This course will teach you how to architect Xamarin.Forms applications in a way that promotes reusable patterns.
 
--As business requirements change, so do solution assumptions. In this course, Architecting Xamarin.Forms Applications for Code Reuse, you’ll learn different architectural patterns in Xamarin.Forms. First, you’ll explore project structure and organization. Next, you’ll discover patterns and standards to promote code sharing. Finally, you’ll learn how to utilize dependency injection in Xamarin.Forms. When you’re finished with this course, you’ll have the skills and knowledge of architecting Xamarin.Forms projects needed to optimally promote code reuse.
+- As business requirements change, so do solution assumptions. In this course, Architecting Xamarin.Forms Applications for Code Reuse, you’ll learn different architectural patterns in Xamarin.Forms. First, you’ll explore project structure and organization. Next, you’ll discover patterns and standards to promote code sharing. Finally, you’ll learn how to utilize dependency injection in Xamarin.Forms. When you’re finished with this course, you’ll have the skills and knowledge of architecting Xamarin.Forms projects needed to optimally promote code reuse.
 
 ## Pluralsights 'Building Cross-platform Apps with Xamarin Forms' Path
 - At its simplest, Xamarin.Forms is a mobile application framework for building user interfaces.
@@ -32,16 +32,16 @@ Pluralsight 'Architecting Xamarin.Forms Applications for Code Reuse' Course Repo
 	- Create View Models to consume this layers
 
 3. Common Code
-3.1. DI
+	3.1. DI
 	- Create Dependency Injection Project
 	- Add TinyIoC
 	- Extract and Refactor Classes
 	- Wireup DI
-3.2. Criss-platform
+	3.2. Criss-platform
 	- Create Interface - IPlatformPrinter
 	- Implement Platform Service
 	- Utilize Dependency Service
-3.3. SharingUI
+	3.3. SharingUI
 	- Controls - Platfom/Shared
 	- Resource Dictionaries
 	- Themes
