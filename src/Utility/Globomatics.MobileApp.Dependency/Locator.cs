@@ -21,5 +21,17 @@ namespace Globomatics.MobileApp.Dependency
         {
              _container.Register<T>();
         }
+
+        public void Register<T>(T instance) where T : class
+        {
+            _container.Register<T>(instance);
+        }
+
+        void ILocator.Register<TInterface, TImplementation>() 
+            where TImplementation : class
+            where TInterface : class
+        {
+            _container.Register<TInterface, TImplementation>();
+        }
     }
 }

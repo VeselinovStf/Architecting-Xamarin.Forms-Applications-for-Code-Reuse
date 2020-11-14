@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Globomantics.MobileApp.Common.Abstraction;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -21,7 +22,12 @@ namespace Globomatics.MobileApp.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new Globomatics.MobileApp.App());
+
+            //Register Platform specific functions - Escaping the use of DependanceService
+            var application = new Globomatics.MobileApp.App();
+            application.Register<IPlatformPrinter, PlatformPrinter>();
+
+            LoadApplication(application);
         }
     }
 }

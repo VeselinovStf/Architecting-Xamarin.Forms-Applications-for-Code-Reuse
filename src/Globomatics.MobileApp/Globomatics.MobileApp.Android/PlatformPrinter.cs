@@ -2,7 +2,7 @@
 using Globomatics.MobileApp.Droid;
 using Xamarin.Forms;
 
-[assembly: Dependency(typeof(PlatformPrinter))]
+//[assembly: Dependency(typeof(PlatformPrinter))]
 namespace Globomatics.MobileApp.Droid
 {
     public class PlatformPrinter : IPlatformPrinter

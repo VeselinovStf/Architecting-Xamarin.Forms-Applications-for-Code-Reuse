@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Globomantics.MobileApp.Common.Abstraction;
 
 namespace Globomatics.MobileApp.Droid
 {
@@ -21,7 +22,12 @@ namespace Globomatics.MobileApp.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
+
+            //Register Platform specific functions - Escaping the use of DependanceService
+            var application = new App();
+            application.Register<IPlatformPrinter, PlatformPrinter>();
+
+            LoadApplication(application);
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

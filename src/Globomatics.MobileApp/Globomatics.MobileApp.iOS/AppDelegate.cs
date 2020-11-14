@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Globomantics.MobileApp.Common.Abstraction;
 using UIKit;
 
 namespace Globomatics.MobileApp.iOS
@@ -23,7 +24,13 @@ namespace Globomatics.MobileApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+
+
+            //Register Platform specific functions - Escaping the use of DependanceService
+            var application = new App();
+            application.Register<IPlatformPrinter, PlatformPrinter>();
+
+            LoadApplication(application);
 
             return base.FinishedLaunching(app, options);
         }

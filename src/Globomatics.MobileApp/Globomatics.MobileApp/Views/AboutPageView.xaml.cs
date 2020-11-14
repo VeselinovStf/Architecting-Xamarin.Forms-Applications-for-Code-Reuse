@@ -24,9 +24,10 @@ namespace Globomatics.MobileApp.Views
         {
              ViewModels.GetCustomer();
 
-            //Title = ViewModels.Title;
+            Title = ViewModels.Title;
 
-            Title = DependencyService.Get<IPlatformPrinter>().GetPlatformString();
+            //Using Dependency Service
+            //Title = DependencyService.Get<IPlatformPrinter>().GetPlatformString();
         }
     }
 }
