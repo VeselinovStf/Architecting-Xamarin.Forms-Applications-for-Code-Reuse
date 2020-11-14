@@ -1,7 +1,7 @@
 # Architecting-Xamarin.Forms-Applications-for-Code-Reuse
 Pluralsight 'Architecting Xamarin.Forms Applications for Code Reuse' Course Repository
 
-![final project architecture]()
+![final project architecture](https://github.com/VeselinovStf/Architecting-Xamarin.Forms-Applications-for-Code-Reuse/blob/main/repoImg/demo.bmp)
 
 ## Course Info
 
