@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Globomantics.MobileApp.Common\Globomantics.MobileApp.Common.csproj" />
+    <ProjectReference Include="..\..\DataAccess\Globomantics.MobileApp.DAL\Globomantics.MobileApp.DAL.csproj" />
+    <ProjectReference Include="..\..\Services\Globomantics.MobileApp.Services\Globomantics.MobileApp.Services.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -12,7 +12,7 @@ namespace Globomatics.MobileApp.Views
         {
             InitializeComponent();
 
-            ViewModels = new AboutViewModel();
+            ViewModels = ViewModelLocator.AboutViewModel;
 
             BindingContext = ViewModels;
         }

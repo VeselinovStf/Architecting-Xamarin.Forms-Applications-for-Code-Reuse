@@ -1,4 +1,5 @@
-﻿using Globomantics.MobileApp.Services;
+﻿using Globomantics.MobileApp.Common.Abstraction;
+using Globomantics.MobileApp.Services;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
@@ -6,13 +7,13 @@ namespace Globomatics.MobileApp.ViewModels
 {
     public class AboutViewModel : BaseViewModel
     {
-        private CustomerService _customerService;
+        private ICustomerService _customerService;
 
 
-        public AboutViewModel()
+        public AboutViewModel(ICustomerService customerService)
         {
             Title = "About";
-            _customerService = new CustomerService();
+            _customerService = customerService;
 
             
         }

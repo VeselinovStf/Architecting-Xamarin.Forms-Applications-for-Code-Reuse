@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Globomantics.MobileApp.Common
+namespace Globomantics.MobileApp.Common.Models
 {
     public class Customer
     {

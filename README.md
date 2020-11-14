@@ -29,4 +29,10 @@ Pluralsight 'Architecting Xamarin.Forms Applications for Code Reuse' Course Repo
 	- Create src/Service project - Customer SL
 	- Create View Models to consume this layers
 
+3. Common Code
+	- Create Dependency Injection Project
+	- Add TinyIoC
+	- Extract and Refactor Classes
+	- Wireup DI
+
 #### Duration: 1h 2m

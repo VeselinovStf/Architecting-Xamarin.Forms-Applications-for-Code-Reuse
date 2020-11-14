@@ -1,10 +1,10 @@
-﻿using Globomantics.MobileApp.Common;
-using System;
+﻿using Globomantics.MobileApp.Common.Models;
+using Globomantics.MobileApp.Common.Abstraction;
 using System.Threading.Tasks;
 
 namespace Globomantics.MobileApp.DAL
 {
-    public class CustomerDAL
+    public class CustomerDAL : ICustomerDAL
     {
         public async Task<Customer> GetCustomerById(string customerId)
         {

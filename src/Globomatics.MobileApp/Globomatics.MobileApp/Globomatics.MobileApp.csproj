@@ -21,8 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Common\Globomantics.MobileApp.Common\Globomantics.MobileApp.Common.csproj" />
-    <ProjectReference Include="..\..\DataAccess\Globomantics.MobileApp.DAL\Globomantics.MobileApp.DAL.csproj" />
-    <ProjectReference Include="..\..\Services\Globomantics.MobileApp.Services\Globomantics.MobileApp.Services.csproj" />
+    <ProjectReference Include="..\..\Utility\Globomatics.MobileApp.Dependency\Globomatics.MobileApp.Dependency.csproj" />
   </ItemGroup>
 
   <ItemGroup>

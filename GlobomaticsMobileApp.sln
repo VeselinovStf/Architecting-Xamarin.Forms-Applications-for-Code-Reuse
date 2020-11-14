@@ -26,17 +26,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UWP", "UWP", "{093F8392-32A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{211CD52A-35E2-4A0B-A54D-D4DF49EF304F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globomantics.MobileApp.Common", "src\Common\Globomantics.MobileApp.Common\Globomantics.MobileApp.Common.csproj", "{34D879F9-8441-4E3D-B59D-20AAF210AE5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Globomantics.MobileApp.Common", "src\Common\Globomantics.MobileApp.Common\Globomantics.MobileApp.Common.csproj", "{34D879F9-8441-4E3D-B59D-20AAF210AE5F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{CD26F31D-495B-4673-92D7-3A04E6FBCFBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globomantics.MobileApp.DAL", "src\DataAccess\Globomantics.MobileApp.DAL\Globomantics.MobileApp.DAL.csproj", "{8EE1989D-F531-40AA-B4F1-8671498548A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Globomantics.MobileApp.DAL", "src\DataAccess\Globomantics.MobileApp.DAL\Globomantics.MobileApp.DAL.csproj", "{8EE1989D-F531-40AA-B4F1-8671498548A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BBF3A5C9-1481-402D-A03B-7E2C3C671098}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5499DA5F-8B3A-4ACF-81C2-87050C217499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globomantics.MobileApp.Services", "src\Services\Globomantics.MobileApp.Services\Globomantics.MobileApp.Services.csproj", "{0D7A79BB-73DD-4458-A9DA-3DD44C9473C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Globomantics.MobileApp.Services", "src\Services\Globomantics.MobileApp.Services\Globomantics.MobileApp.Services.csproj", "{0D7A79BB-73DD-4458-A9DA-3DD44C9473C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{214B9EF1-A23C-4347-900C-154C3596457E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globomatics.MobileApp.Dependency", "src\Utility\Globomatics.MobileApp.Dependency\Globomatics.MobileApp.Dependency.csproj", "{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -226,6 +230,30 @@ Global
 		{0D7A79BB-73DD-4458-A9DA-3DD44C9473C4}.Release|x64.Build.0 = Release|Any CPU
 		{0D7A79BB-73DD-4458-A9DA-3DD44C9473C4}.Release|x86.ActiveCfg = Release|Any CPU
 		{0D7A79BB-73DD-4458-A9DA-3DD44C9473C4}.Release|x86.Build.0 = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|x64.Build.0 = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Debug|x86.Build.0 = Debug|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|ARM.Build.0 = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|iPhone.Build.0 = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|x64.ActiveCfg = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|x64.Build.0 = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|x86.ActiveCfg = Release|Any CPU
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -245,6 +273,8 @@ Global
 		{BBF3A5C9-1481-402D-A03B-7E2C3C671098} = {949BEBB7-B747-4DDD-AAA7-13D171FD62A2}
 		{5499DA5F-8B3A-4ACF-81C2-87050C217499} = {949BEBB7-B747-4DDD-AAA7-13D171FD62A2}
 		{0D7A79BB-73DD-4458-A9DA-3DD44C9473C4} = {BBF3A5C9-1481-402D-A03B-7E2C3C671098}
+		{214B9EF1-A23C-4347-900C-154C3596457E} = {949BEBB7-B747-4DDD-AAA7-13D171FD62A2}
+		{1D96AAF7-6C9E-48BB-825A-FF1631767B7A} = {214B9EF1-A23C-4347-900C-154C3596457E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6196E8A1-0F67-41CD-901A-8689883199E2}
